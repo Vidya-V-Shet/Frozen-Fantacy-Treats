@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="treats.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1 >Frozen Fantasy Treats</h1>
+            </div>
+            <div class="input">
+                <input type="text" value="" id="inp" placeholder="Search Here ..." onkeyup="myFun()">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="icon">
+                <i onclick="login()" class="fa-regular fa-user"></i>
+                <i class="fa-solid fa-cart-shopping" id="cartIcon"></i>
+                <i onclick="nav()" class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+
+        <div class="login">
+            <h2>Log In </h2>
+            <input type="text" placeholder="Enter Your Name">
+            <input type="password" placeholder="Enter Password"> <br>
+            <button>Log In</button>
+
+        </div>
+
+        <div class="nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <br>
+
+                <li><a href="#icy-infusions">Icy Infusions</a></li>
+                <br>
+    
+                <li><a href="#blog">Blog</a></li>
+                <br>
+                <li><a href="#customer">Customer</a></li>
+                
+            </ul>
+    
+
+
+        </div>
+
+        <!-- main Page -->
+        <div id="home">
+        <div class="main">
+            <div class="text">
+                <h1 class="aesthetic-heading">Here is the scoop,a surprise in every lick!</h1>
+                <p>Ice cream solves everything so just have it before it melts!
+                    From cones to cups, happiness erupts. Indulge in a scoop, feel the joy that's absolute.</p>
+                <button>Explore More</button>
+            </div>
+            <img src="https://www.chocolatemoosey.com/wp-content/uploads/2018/11/Fried-Ice-Cream-Sundaes-3227-480x480.jpg" alt="">
+        </div>
+
+        <!--  Card menu -->
+    </div>
+    <div id="icy-infusions">
+        <table>
+            <tr>
+                <td>
+                    <div class="head">
+                        <h1>Our <span>Icy Infusions</span></h1>
+                    </div>
+                    <div class="crd">
+                        <div class="card" data-price="100">
+                            <img src="https://tse1.mm.bing.net/th?id=OIP.zRN4JOhY2xPUDFE2inGOrgHaHa&pid=Api&P=0&h=180" alt="">
+                            <h2>Vanilla bean</h2>
+                            <p>Indulge in the timeless delight of creamy Vanilla ice cream.</p>
+                            <br>
+                            <p>Price: ₹100</p>
+                            <button class="orderButton">Order Now</button>
+                            
+                        </div>
+                        <div class="card" data-price="200">
+                            <img src="https://baileyscountrystore.co.uk/wp-content/uploads/2020/08/Double-Chocolate-fudge.jpg" alt="">
+                            <h2>Chocolate fudge</h2>
+                            <p>Decadent and rich, our Chocolate Fudge ice cream is a spoonful of pure bliss.</p>
+                            <br>
+                            <p>Price: ₹200</p>
+                            <button class="orderButton">Order Now</button>
+                        </div>
+                        <div class="card" data-price="180">
+                            <img src="https://tse4.mm.bing.net/th?id=OIP.-KOs8Mht3NaYHmwymeKyQgHaHa&pid=Api&P=0&h=180" alt="">
+                            <h2>Royal berry</h2>
+                            <p>Experience the burst of flavors with our Blueberry Bliss ice cream, a true taste of summer in every scoop</p>
+                            <p>Price: ₹180</p>
+                            <button class="orderButton">Order Now</button>
+                        </div>
+                    </div>
+
+                    <div class="crd">
+                        <div class="card" data-price="120">
+                            <img src="https://tse3.mm.bing.net/th?id=OIP.c6T5RESthtzZMF9FSaetcAHaLH&pid=Api&P=0&h=180" alt="">
+                            <h2>Strawberry curls</h2>
+                            <p>Delight in the sweet tanginess of our Strawberry Curls ice cream, a swirl of fruity joy.</p>
+                            <p>Price: ₹120</p>
+                            <button class="orderButton">Order Now</button>
+                        </div>
+                        <div class="card" data-price="200">
+                            <img src="https://3.bp.blogspot.com/-tv20JtGiRds/W2hUSSjdnCI/AAAAAAAAIp0/8NFisF6uL_0ihSPnfCcWmSeONDZNu1LUACLcBGAs/s1600/Pistachio%2B%2BIce%2BCream%2B%2BKesar%2BPista%2BIce%2BCream%2BPistachio%2BSaffron%2BIce%2BCream1.jpg" alt="">
+                            <h2>Pista delight</h2>
+                            <p>Savor the nutty essence and refreshing allure of our Pistachio ice cream.</p>
+                            <br>
+                            <p>Price: ₹200</p>
+                            <button class="orderButton">Order Now</button>
+                            
+                        </div>
+                        <div class="card" data-price="170">
+                            <img src=https://celebratingsweets.com/wp-content/uploads/2016/06/No-Churn-Coffee-Toffee-Fudge-Swirl-Ice-Cream-5-1.jpg" alt="">
+                            <h2>Coffee delight</h2>
+                            <p>Awaken your senses with the rich and aromatic delight of our Coffee-infused ice cream, a perfect blend of indulgence.</p>
+                            <p>Price: ₹170</p>
+                            <button class="orderButton">Order Now</button>
+                        </div>
+                    </div>
+                </td>
+
+
+            </tr>
+        </table>
+    </div>
+    <div id="blog">
+        <table>
+            <tr>
+                <td>
+                    <div class="head">
+                        <h1>Our <span>Blogs</span></h1>
+                    </div>
+                    <div class="crd">
+                        <div class="blog">
+                            <img src="https://images.hindustantimes.com/img/2021/11/06/550x309/e276cbaa-3e0e-11ec-a444-2c6d4ea9da0b_1636192223278.jpg" alt="">
+                            <h2>A Range of Frozen Treats</h2>
+                            <p>Explore the Infinite Delights: A Range of Frozen Treats Awaits. From Classic Flavors to Unique Concoctions, Indulge in Every Chilled Bite.</p>
+                            <a href="https://docs.google.com/document/d/10VVe8SRF20M8pnvTgD4A-ZBAzgHREriQ/edit?usp=sharing&ouid=117549425620957106783&rtpof=true&sd=true">Read More</a>
+                        </div>
+                        <div class="blog">
+                            <img src= "https://i.pinimg.com/originals/2a/59/7e/2a597efbe601a77e98479b6c8d839804.jpg" alt="">
+                            <h2>Creamy Bliss</h2>
+                            <p>Discover Creamy Bliss: A Scoop of Heaven in Every Bite. Indulge in Smooth Delights, Whisking You Away to Blissful Creaminess</p>
+                            <a href="https://docs.google.com/document/d/1As3brrLRHi0_Sz6eHAYohdacNEbdk74K/edit?usp=sharing&ouid=117549425620957106783&rtpof=true&sd=true">Read More</a>
+                        </div>
+                        
+                        <div class="blog">
+                            <img src="https://img-cdn.medkomtek.com/KuEw4f5omws-sTX1MuvujLqNihk=/730x411/smart/filters:quality(100):strip_icc():format(webp)/article/jbu3prs2nfMiAv-5SSlba/original/051156300_1616639227-Waspada-Makan-Gelato-Setiap-Hari-Bisa-Menyebabkan-Diabetes-by-beats3-Canva.jpg" alt="">
+                            <h2> GlobalScoops</h2>
+                            <p>Explore GlobalScoops: A World of Frozen Delights. Savor Flavors from Every Corner, Uniting in a Chilled Adventure.</p>
+                            <br>
+                            <a href="https://docs.google.com/document/d/1TYJ5SSDSu7tF-ikVHzoC5JvmtiAmr2Mc/edit?usp=sharing&ouid=117549425620957106783&rtpof=true&sd=true">Read More</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="customer">
+
+        <!-- Customer Review -->
+
+
+        <div class="head">
+            <h1>Customer <span>Review</span></h1>
+        </div>
+        <div class="review">
+
+            
+            <div class="customer">
+                <img src="https://i0.wp.com/earnurl.in/wp-content/uploads/2023/03/beautiful-girl-dp-1-2.jpg?resize=840%2C818&ssl=1" alt=""> <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p>The Chocolate Fudge ice cream here is heavenly! Rich, decadent, and absolutely addictive. The fudge swirls and chunks are a chocolate lover's dream. Every spoonful feels like a celebration!</p>
+                
+            </div>
+            
+            <div class="customer">
+                <img src="C:\Users\vidya\OneDrive\Pictures\Screenshots\Screenshot 2023-11-28 185743.png" alt=""> <br>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p>As a vanilla ice cream lover, this one hits all the right notes! Creamy, rich, and with a subtle sweetness that's just perfect. It's become my go-to comfort dessert after a long day. Absolutely delightful!</p>
+                
+            </div>
+
+            
+        </div>
+        <div class="btn">
+            <button onclick="pre()">Prev</button>
+            <button onclick="next()">Next</button>
+
+        </div>
+    </div>
+    <br>
+    <br>
+    
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Frozen Fantasy Treats is dedicated to providing the finest and most delightful frozen desserts that tantalize your taste buds. Our commitment is to serve you with premium-quality ice creams made from the freshest ingredients, delivering an experience that delights with every scoop.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home"><b>Home</b></a></li>
+                    <li><a href="#icy-infusions"><b>Icy Infusions</b></a></li>
+                    <li><a href="#blog"><b>Blog</b></a></li>
+                    <li><a href="#review"><b>Review</b></a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: contact@frozenfantasy.com</p><br>
+                <p>Phone: +1234567890</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><img src="https://tse3.mm.bing.net/th?id=OIP.xG7XpTkrwfkVKhoyHLj89AHaHc&pid=Api&P=0&h=180" alt="Facebook"></a>
+                    <a href="#"><img src="https://logos-world.net/wp-content/uploads/2020/04/Twitter-Logo-700x394.png" alt="Twitter"></a>
+                    <a href="#"><img src="https://img.freepik.com/free-vector/instagram-icon_1057-2227.jpg?size=626&ext=jpg" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Frozen Fantasy Treats. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    
+    <script src="frozentreats.js"></script>
+</body>
+</html>
